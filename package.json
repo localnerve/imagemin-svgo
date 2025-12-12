@@ -1,13 +1,13 @@
 {
 	"name": "@localnerve/imagemin-svgo",
-	"version": "11.2.2",
+	"version": "12.0.0",
 	"description": "SVGO imagemin plugin",
 	"license": "MIT",
 	"repository": "localnerve/imagemin-svgo",
 	"type": "module",
 	"exports": "./index.js",
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -25,14 +25,14 @@
 		"svgo"
 	],
 	"dependencies": {
-		"is-svg": "^5.1.0",
-		"svgo": "^3.3.2"
+		"is-svg": "^6.1.0",
+		"svgo": "^4.0.0"
 	},
 	"devDependencies": {
-		"ava": "^6.1.3",
-		"xo": "^0.59.3"
+		"ava": "^6.4.1",
+		"xo": "^1.2.3"
 	},
 	"overrides": {
-		"webpack": "^5.95.0"
+		"webpack": "^5.103.0"
 	}
 }
