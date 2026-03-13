@@ -1,6 +1,6 @@
 {
 	"name": "@localnerve/imagemin-svgo",
-	"version": "12.0.1",
+	"version": "12.0.2",
 	"description": "SVGO imagemin plugin",
 	"license": "MIT",
 	"repository": "localnerve/imagemin-svgo",
