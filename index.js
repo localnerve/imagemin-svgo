@@ -18,4 +18,4 @@ const imageminSvgo = options => async buffer => {
 	return Buffer.from(data);
 };
 
-export default imageminSvgo;
+export default imageminSvgo; // eslint-disable-line unicorn/default-export-style
